@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var e=function(e){var o=$("#line").html(),n=Handlebars.compile(o)({clientes:e});console.log(n),$("table tbody").html(n)},o=function(){};console.log("carregando cliente..."),$.ajax({url:"http://www.mocky.io/v2/5a86296b31000071002531ed",dataType:"jsonp",error:o,success:e})});
